@@ -96,10 +96,10 @@ img {
 .page-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2f303a;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   text-align: center;
+  background: #2f303a;
 }
 
 .title-hero {
