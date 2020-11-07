@@ -20,7 +20,8 @@ img {
 
 .features-container ul,
 .services-container ul,
-.team-container ul {
+.team-container ul,
+.regular-customers-container ul {
   display: flex;
   justify-content: space-between;
 }
@@ -94,12 +95,20 @@ img {
 }
 
 .page-hero {
+  height: 600px;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   text-align: center;
-  background: #2f303a;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-background.jpg);
+  background-size: cover;
 }
 
 .title-hero {
@@ -218,6 +227,18 @@ img {
   color: #757575;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.regular-customers-container {
+  padding: 94px 0px;
+  background-color: #ffffff;
+}
+
+.customer-card {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .footer-container {
@@ -368,4 +389,10 @@ img {
   color: #ffffff;
   border-radius: 4px;
   outline-color: #ffffff;
+}
+
+.project-card:hover,
+.project-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
