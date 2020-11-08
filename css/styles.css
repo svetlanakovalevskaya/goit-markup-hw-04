@@ -94,6 +94,10 @@ img {
   align-items: center;
 }
 
+.address-icon {
+  color: #757575;
+}
+
 .page-hero {
   height: 600px;
   max-width: 1600px;
