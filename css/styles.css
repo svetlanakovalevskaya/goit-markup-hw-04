@@ -280,6 +280,10 @@ img {
   padding-bottom: 60px;
 }
 
+#contacts {
+  display: flex;
+}
+
 .logo-footer {
   color: #ffffff;
 }
@@ -306,6 +310,23 @@ img {
 .footer-address-link {
   color: rgba(255, 255, 255, 0.6);
   inline-size: 10px;
+}
+
+.life-address {
+  margin-right: 70px;
+}
+
+.social-networks-title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .portfolio-page {
