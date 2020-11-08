@@ -540,7 +540,12 @@ img {
   fill: #ffffff;
 }
 
-.customer-icons:hover,
-.customer-icons:focus {
+.customer-links:hover .customer-icons,
+.customer-links:focus .customer-icons {
   fill: #2196f3;
+}
+
+.customer-card:hover,
+.customer-card:focus {
+  border-color: #2196f3;
 }
