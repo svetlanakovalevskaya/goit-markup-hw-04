@@ -95,6 +95,7 @@ img {
 }
 
 .address-icon {
+  margin-right: 10px;
   fill: #757575;
 }
 
@@ -428,6 +429,11 @@ img {
 .address-link:focus {
   color: #2196f3;
   outline-color: #2196f3;
+}
+
+.address-link:hover .address-icon,
+.address-link:focus .address-icon {
+  fill: #2196f3;
 }
 
 .button-order-service:hover,
