@@ -250,7 +250,7 @@ img {
 }
 
 .employee-card-description {
-  padding: 30px 15px;
+  padding: 30px 32px;
 }
 
 .title-employee-card {
@@ -264,7 +264,21 @@ img {
   font-weight: normal;
   color: #757575;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
+}
+
+.social-icons-item {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
 }
 
 .regular-customers-container {
@@ -277,6 +291,52 @@ img {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.customer-links {
+  display: block;
+  width: 170px;
+  height: 90px;
+}
+
+.customer-icons {
+  fill: #afb1b8;
+}
+
+.logo-1 {
+  width: 45px;
+  height: 50px;
+  margin: 20px 63px;
+}
+
+.logo-2 {
+  width: 40px;
+  height: 52px;
+  margin: 19px 65px;
+}
+
+.logo-3 {
+  width: 41px;
+  height: 43px;
+  margin: 24px 64px;
+}
+
+.logo-4 {
+  width: 80px;
+  height: 42px;
+  margin: 24px 45px;
+}
+
+.logo-5 {
+  width: 59px;
+  height: 47px;
+  margin: 22px 55px;
+}
+
+.logo-6 {
+  width: 89px;
+  height: 45px;
+  margin: 22px 41px;
 }
 
 .footer-container {
@@ -332,6 +392,14 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.social-networks-container {
+  display: flex;
+}
+
+.social-icons-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .portfolio-page {
@@ -459,4 +527,20 @@ img {
 .project-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.social-icons-item:hover,
+.social-icons-item:focus {
+  background-color: #2196f3;
+  border-radius: 25px;
+}
+
+.social-icons-item:hover .social-icon,
+.social-icons-item:focus .social-icon {
+  fill: #ffffff;
+}
+
+.customer-icons:hover,
+.customer-icons:focus {
+  fill: #2196f3;
 }
